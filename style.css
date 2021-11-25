@@ -5,6 +5,10 @@
     /* border: 1px solid red; */
 }
 
+.row{
+    --bs-gutter-x: 0;
+}
+
 /* nav */
 .navsection{
     position: static;
@@ -67,7 +71,18 @@
 .play-5{
     margin-top: 6rem;
 }
+.ps5-items-img{
+    opacity: 0.6;
+    transition: opacity 500ms;
+}
 
+.ps5-items:hover .ps5-items-img{
+    opacity: 1;
+}
+
+.ps5-items-selected{
+    border-bottom: rgb(33, 77, 236) solid 2px;
+}
  /* btn */
 
 .bottone{
