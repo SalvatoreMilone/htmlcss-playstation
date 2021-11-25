@@ -51,6 +51,7 @@
     border-radius: 15px;
     background-position: center;
     background-size: cover;
+    margin: 10px;
 }
 
 .returnal-card{
@@ -94,6 +95,18 @@
 }
 .mainbannercontainer2{
     height: 500px;
+    color: white;
+}
+
+
+/* nuove uscite */
+
+.rounded-nuoveuscite{
+    border-radius: 20px;
+}
+
+.nuove-uscite{
+    background-color: #1f1f1f;
     color: white;
 }
 
