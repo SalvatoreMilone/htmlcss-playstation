@@ -4,8 +4,14 @@
     box-sizing: border-box;
 }
 
+
+.dropdown-menu-width{
+   
+}
+
+
  /* btn */
- 
+
 .bottone{
     padding: 1rem;
     background-color: black;
@@ -16,5 +22,5 @@
 }
 
 .bottone:hover {
-    box-shadow: 0px 0px 0px 2px white inset ;
+    box-shadow: 0px 0px 0px 2px white inset;
 }
