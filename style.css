@@ -4,6 +4,21 @@
     box-sizing: border-box;
 }
 
+/* nav */
+.navsection{
+    position: static;
+}
+
+.navtop{
+    background-color: black;
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: end;
+}
+
+.navtop a{
+    display: flex;
+}
 
 .dropdown-menu-width{
    
