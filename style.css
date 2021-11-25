@@ -48,12 +48,30 @@
 
 @media(max-width: 991px){
   .navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse{
-    overflow-y: auto;
+      overflow-y: auto;
       max-height: 90vh;
       margin-top:10px;
-  }
+    }
 }
 
+
+.nav-link{
+    padding: 0;
+}
+
+.navspacing{
+    width: 100%;
+}
+.navspacing2{
+    width: 10px;
+}
+
+.searchicon{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 0 5px;
+    margin-top: 30px;
+}
 /* banner1 */
 .mainbanner{
     min-height: 500px;
@@ -183,6 +201,7 @@
     box-shadow: 0px 0px 0px 2px rgb(255, 255, 255) inset;
     color: white;
 }
+
 
 
 .bottone3{
