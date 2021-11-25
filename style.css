@@ -40,6 +40,8 @@
 
 /* sezione con 6 giochi in evidenza */
 
+
+
 .game-card{
     max-width: 300px;
     background-color: chartreuse;
@@ -106,6 +108,13 @@
     color: white;
 }
 
+/* psplus */
+
+.psplus{
+    background-color: #bebcbb;
+
+}
+
  /* btn */
 
 .bottone{
@@ -143,4 +152,21 @@
 .bottone2:hover {
     box-shadow: 0px 0px 0px 2px rgb(255, 255, 255) inset;
     color: white;
+}
+
+
+.bottone3{
+    width: fit-content;
+    padding: 4px 10px 7px 10px;
+    background-color: #d9dadc;
+    color: #2d64e6;
+    border-radius: 3rem;
+    transition: box-shadow 500ms;
+    cursor: pointer;
+    text-decoration: none;
+    z-index: 99999;
+}
+
+.bottone3:hover {
+    box-shadow: 0px 0px 0px 2px rgb(255, 255, 255) inset;
 }
