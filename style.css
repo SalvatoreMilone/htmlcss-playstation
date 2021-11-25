@@ -83,6 +83,20 @@
 .ps5-items-selected{
     border-bottom: rgb(33, 77, 236) solid 2px;
 }
+
+/* banner2 */
+.banner2{
+    min-height: 500px;
+    background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.mainbannercontainer2{
+    height: 500px;
+    color: white;
+}
+
  /* btn */
 
 .bottone{
