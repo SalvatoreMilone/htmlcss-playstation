@@ -11,7 +11,9 @@
 
 /* nav */
 .navsection{
-    position: static;
+    position: fixed;
+    width: 100%;
+    background-color: white;
 }
 
 .navtop{
@@ -23,6 +25,33 @@
 
 .navtop a{
     display: flex;
+
+}
+
+.container-nav{
+    padding: 50px 20%;
+}
+
+.navbar .megamenu{
+    padding: 1rem; 
+    border: none;
+    border-radius: 0;
+}
+
+@media all and (min-width: 992px) {
+
+  .navbar .has-megamenu{position:static!important;}
+  .navbar .megamenu{left:0; right:0; width:100%; margin-top:-1px;  }
+
+}	
+
+
+@media(max-width: 991px){
+  .navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse{
+    overflow-y: auto;
+      max-height: 90vh;
+      margin-top:10px;
+  }
 }
 
 /* banner1 */
@@ -37,6 +66,7 @@
     height: 500px;
     color: white;
 }
+
 
 /* sezione con 6 giochi in evidenza */
 
