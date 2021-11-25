@@ -3,6 +3,11 @@
     margin: 0;
     box-sizing: border-box;
     /* border: 1px solid red; */
+    list-style: none;
+}
+
+body{
+    background-color: white;
 }
 
 .row{
@@ -12,8 +17,11 @@
 /* nav */
 .navsection{
     position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     background-color: white;
+    z-index: 99999;
 }
 
 .navtop{
@@ -74,6 +82,7 @@
 }
 /* banner1 */
 .mainbanner{
+    margin-top:120px;
     min-height: 500px;
     background-image: url(img/jumbo-bg.png);
     background-size: cover;
@@ -163,6 +172,36 @@
 
 }
 
+/* psnow */
+
+.psnow{
+    background-color: #161c3b;
+    color: white;
+}
+
+/* social */
+.socialicon{
+    max-width: 250px;
+}
+
+/* footer */
+
+footer{
+    background-color: #00439c;
+}
+
+.country-container{
+    width: fit-content;
+}
+footer *{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    color: white;
+}
+
  /* btn */
 
 .bottone{
@@ -218,4 +257,20 @@
 
 .bottone3:hover {
     box-shadow: 0px 0px 0px 2px rgb(255, 255, 255) inset;
+}
+
+.bottone4{
+    width: fit-content;
+    padding: 4px 10px 7px 10px;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 3rem;
+    transition: box-shadow 500ms;
+    cursor: pointer;
+    text-decoration: none;
+    z-index: 99999;
+}
+
+.bottone4:hover {
+    box-shadow: 0px 0px 0px 2px rgb(148, 148, 148) inset;
 }
