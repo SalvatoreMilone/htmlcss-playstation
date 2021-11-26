@@ -5,16 +5,14 @@
     /* border: 1px solid red; */
     list-style: none;
 }
-
 body{
     background-color: white;
 }
-
 .row{
     --bs-gutter-x: 0;
 }
-
 /* nav */
+
 .navsection{
     position: fixed;
     top: 0;
@@ -23,34 +21,26 @@ body{
     background-color: white;
     z-index: 99999;
 }
-
 .navtop{
     background-color: black;
     padding: 1rem 1rem;
     display: flex;
     justify-content: end;
 }
-
 .navtop a{
     display: flex;
-
 }
-
 .container-nav{
     padding: 50px 20%;
 }
-
 .navbar .megamenu{
     padding: 1rem; 
     border: none;
     border-radius: 0;
 }
-
 @media all and (min-width: 992px) {
-
   .navbar .has-megamenu{position:static!important;}
   .navbar .megamenu{left:0; right:0; width:100%; margin-top:-1px;  }
-
 }	
 
 
@@ -62,18 +52,15 @@ body{
     }
 }
 
-
 .nav-link{
     padding: 0;
 }
-
 .navspacing{
     width: 100%;
 }
 .navspacing2{
     width: 10px;
 }
-
 .searchicon{
     border: 1px solid black;
     border-radius: 20px;
@@ -81,6 +68,7 @@ body{
     margin-top: 30px;
 }
 /* banner1 */
+
 .mainbanner{
     margin-top:120px;
     min-height: 500px;
@@ -93,35 +81,26 @@ body{
     height: 500px;
     color: white;
 }
-
-
 /* sezione con 6 giochi in evidenza */
-
-
 
 .game-card{
     max-width: 300px;
-    background-color: chartreuse;
     min-height: 150px;
     border-radius: 15px;
     background-position: center;
     background-size: cover;
     margin: 10px;
 }
-
 .returnal-card{
     background-image: url(img/returnal-listing-thumb-01-ps5.jpg);
 }
-
 .ratchet-card{
     background-image: url(img/ratchet-and-clank-rift-apart-keyart.jpg);
 }
-
 .selected{
     border: 2px solid white;
     box-shadow: 0px 0px 0px 2px rgb(33, 77, 236);
 }
-
 /* ps-5 */
 
 .play-5{
@@ -131,16 +110,14 @@ body{
     opacity: 0.6;
     transition: opacity 500ms;
 }
-
 .ps5-items:hover .ps5-items-img{
     opacity: 1;
 }
-
 .ps5-items-selected{
     border-bottom: rgb(33, 77, 236) solid 2px;
 }
-
 /* banner2 */
+
 .banner2{
     min-height: 500px;
     background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
@@ -152,14 +129,11 @@ body{
     height: 500px;
     color: white;
 }
-
-
 /* nuove uscite */
 
 .rounded-nuoveuscite{
     border-radius: 20px;
 }
-
 .nuove-uscite{
     background-color: #1f1f1f;
     color: white;
@@ -171,14 +145,12 @@ body{
     background-color: #bebcbb;
 
 }
-
 /* psnow */
 
 .psnow{
     background-color: #161c3b;
     color: white;
 }
-
 /* social */
 .socialicon{
     max-width: 250px;
@@ -221,8 +193,6 @@ footer a:hover{
     color: white;
 }
 
-
-
 .bottone2{
     width: fit-content;
     padding: 2px 10px 5px 10px;
@@ -240,8 +210,6 @@ footer a:hover{
     box-shadow: 0px 0px 0px 2px rgb(255, 255, 255) inset;
     color: white;
 }
-
-
 
 .bottone3{
     width: fit-content;
