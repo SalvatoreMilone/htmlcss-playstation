@@ -26,14 +26,14 @@ body{
     -webkit-font-smoothing: antialiased;
   }
 
-.show::after{
+a.show::after{
     border: 0;
     font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f077";
     vertical-align: 0;
     color: blue;
 }
 
-.show:before {
+a.show:before {
     font-style: normal;
     font-variant: normal;
     text-rendering: auto;
@@ -57,7 +57,8 @@ body{
 }
 
 .container-nav{
-    padding: 50px 20%;
+  margin: -20px;
+  padding-bottom: 10px;
 }
 .navbar .megamenu{
     padding: 1rem; 
@@ -90,6 +91,11 @@ body{
     padding: 0 5px;
     margin-top: 30px;
 }
+
+.container-nav .row div a img{
+    max-width: 100px;
+}
+
 /* banner1 */
 
 .mainbanner{
@@ -113,6 +119,7 @@ body{
     background-position: center;
     background-size: cover;
     margin: 10px;
+    cursor: pointer;
 }
 .returnal-card{
     background-image: url(img/returnal-listing-thumb-01-ps5.jpg);
@@ -169,6 +176,7 @@ body{
 
 .rounded-nuoveuscite{
     border-radius: 20px;
+    cursor: pointer;
 }
 .nuove-uscite{
     background-color: #1f1f1f;
@@ -181,6 +189,13 @@ body{
     background-color: #bebcbb;
 
 }
+
+/* sconti */
+
+.sales-section-item{
+    cursor: pointer;
+}
+
 /* psnow */
 
 .psnow{
@@ -190,6 +205,7 @@ body{
 /* social */
 .socialicon{
     max-width: 250px;
+    cursor: pointer;
 }
 
 /* footer */
