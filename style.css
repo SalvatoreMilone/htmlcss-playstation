@@ -124,6 +124,19 @@ body{
     border: 2px solid white;
     box-shadow: 0px 0px 0px 2px rgb(33, 77, 236);
 }
+
+.game-card-container{
+    position: relative;
+    top: 0px;
+    left: 0;
+    transition: top 500ms;
+}
+.game-card-container:hover{
+    position: relative;
+    top: -10px;
+    left: 0;
+}
+
 /* ps-5 */
 
 .play-5{
