@@ -27,9 +27,7 @@ body{
     display: flex;
     justify-content: end;
 }
-.navtop a{
-    display: flex;
-}
+
 .container-nav{
     padding: 50px 20%;
 }
@@ -38,19 +36,16 @@ body{
     border: none;
     border-radius: 0;
 }
-@media all and (min-width: 992px) {
-  .navbar .has-megamenu{position:static!important;}
-  .navbar .megamenu{left:0; right:0; width:100%; margin-top:-1px;  }
-}	
-
-
-@media(max-width: 991px){
-  .navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse{
-      overflow-y: auto;
-      max-height: 90vh;
-      margin-top:10px;
-    }
+.navbar .has-megamenu{
+    position:static!important;
 }
+.navbar .megamenu{
+    left:0;
+    right:0; 
+    width:100%; 
+    margin-top:-1px;  
+}
+
 
 .nav-link{
     padding: 0;
@@ -74,7 +69,7 @@ body{
     min-height: 500px;
     background-image: url(img/jumbo-bg.png);
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
 }
 .mainbannercontainer{
